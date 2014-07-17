@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://autoplot.org/data/" href="swt.jnlp">
+  <security>
+    <all-permissions/>
+  </security>
+   <information>
+      <title>swt</title>
+      <vendor>Autoplot</vendor>
+      <offline-allowed/>
+   </information>
+   <offline-allowed/>
+
+   <security>
+	<all-permission/>
+   </security>
+
+   <resources os="Windows" arch="x86">
+      <nativelib href="swt-native-win32-x86.jar"/>
+      <jar href="swt-win32-x86.jar"/>
+   </resources>
+
+    <resources os="Windows" arch="x86_64">
+      <nativelib href="swt-native-win32-x86.jar"/>
+      <jar href="swt-win32-x86.jar"/>
+   </resources>
+
+ <resources os="Linux">
+      <nativelib href="swt-native-linux-x86.jar"/>
+      <jar href="swt-linux-x86.jar"/>
+   </resources>
+
+   <component-desc/>
+</jnlp>

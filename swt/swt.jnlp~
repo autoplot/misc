@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://autoplot.org/data/" href="swt.jnlp">
+  <security>
+    <all-permissions/>
+  </security>
+   <information>
+      <title>swt</title>
+      <vendor></vendor>
+      <offline-allowed/>
+   </information>
+   <offline-allowed/>
+   <resources os="Windows" arch="x86">
+      <jar href="swt_win32.jar"/>
+   </resources>
+    <resources os="Windows" arch="x86_64">
+      <jar href="swt_win64.jar"/>
+   </resources>
+  <resources os="Linux">
+      <jar href="swt_linux.jar"/>
+   </resources>
+   <component-desc/>
+</jnlp>
